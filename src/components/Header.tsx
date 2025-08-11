@@ -21,14 +21,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">R</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-lg leading-none text-primary">QUANTUM</span>
-              <span className="font-bold text-lg leading-none text-primary">RESEARCH</span>
-              <span className="text-xs text-muted-foreground italic">we drive growth</span>
-            </div>
+            <img 
+              src="/lovable-uploads/73e2cb32-af4a-4467-8cc3-e741b6024f5a.png" 
+              alt="Quantum Research - we drive growth" 
+              className="h-10 w-auto" 
+            />
           </Link>
 
           {/* Desktop Navigation */}
