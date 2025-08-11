@@ -28,12 +28,12 @@ const BrandsStrip = () => {
               <div
                 key={`${brand.name}-${index}`}
                 className="flex-shrink-0 mx-8 flex items-center justify-center"
-                style={{ minWidth: "150px" }}
+                style={{ minWidth: "150px", height: "80px" }}
               >
                 <img
                   src={brand.logo}
                   alt={`${brand.name} logo`}
-                  className="h-12 md:h-16 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
+                  className="h-12 w-24 md:h-16 md:w-32 object-contain opacity-70 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
                 />
               </div>
             ))}
