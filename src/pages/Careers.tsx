@@ -86,9 +86,12 @@ const Careers = () => {
                 <p className="text-muted-foreground mb-6">
                   We don't have open positions for now. However, we're always looking for talented individuals.
                 </p>
-                <Button variant="outline" size="lg">
-                  Send Us Your CV
-                </Button>
+                <p className="text-foreground font-medium">
+                  Send Us your CV for review through: <br />
+                  <a href="mailto:Jobs@Quantumresearch.co.tz" className="text-primary hover:text-orange transition-colors">
+                    Jobs@Quantumresearch.co.tz
+                  </a>
+                </p>
               </CardContent>
             </Card>
           </div>

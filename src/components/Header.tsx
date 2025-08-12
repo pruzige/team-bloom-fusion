@@ -24,7 +24,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/73e2cb32-af4a-4467-8cc3-e741b6024f5a.png" 
               alt="Quantum Research - we drive growth" 
-              className="h-10 w-auto" 
+              className="h-16 w-auto" 
             />
           </Link>
 
